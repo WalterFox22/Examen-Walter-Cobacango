@@ -16,7 +16,19 @@ public class Main {
         Ruta ruta4 = new Ruta("Quito-Riobamba", 17.50);
     }
 
-    // Valores nulos
+    // Valores nulos de rutas y pasajeros
+
+    Pasajero cliente6= new Pasajero();
+    Pasajero cliente7= new Pasajero();
+    Pasajero cliente8= new Pasajero();
+    Pasajero cliente9= new Pasajero();
+    Pasajero cliente10= new Pasajero();
+
+    Ruta ruta5 = new Ruta();
+    Ruta ruta6 = new Ruta();
+    Ruta ruta7 = new Ruta();
+    Ruta ruta8 = new Ruta();
+    Ruta ruta9 = new Ruta();
 
 
 }
