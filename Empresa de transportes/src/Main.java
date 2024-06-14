@@ -2,8 +2,12 @@
 import Rutas.Ruta;
 import Rutas.VIP;
 import Rutas.Normal;
+import Rutas.Pasajero;
+
 public class Main {
     public static void main(String[] args) {
+
+        // AQUI ESTAN VALORES QUEMAODS CON CLINETES Y RUTAS :3
         Pasajero cliente1= new Pasajero(" Walter","Cobacango","Ponceano","0979376396",18);
         Pasajero cliente2= new Pasajero("Kevin","Mendoza","Vicentina","0984168469",34);
         Pasajero cliente3= new Pasajero("Richard","Acero","Zabala","0999999956",56);
@@ -18,12 +22,7 @@ public class Main {
 
     // Valores nulos de rutas y pasajeros
 
-    Pasajero cliente6= new Pasajero();
-    Pasajero cliente7= new Pasajero();
-    Pasajero cliente8= new Pasajero();
-    Pasajero cliente9= new Pasajero();
-    Pasajero cliente10= new Pasajero();
-
+    Pasajero cliente6 = new Pasajero();
     Ruta ruta5 = new Ruta();
     Ruta ruta6 = new Ruta();
     Ruta ruta7 = new Ruta();
@@ -31,4 +30,17 @@ public class Main {
     Ruta ruta9 = new Ruta();
 
 
+    // Setteo de valores
+        cliente6.setNombre("Carmen");
+        cliente6.setApellido("Lopez");
+        cliente6.setDireccion("Cotocollao");
+        cliente6.setTelefono("0987543207");
+        cliente6.setEdad(29);
+
+        cliente6.mostrarInfoCliente();
+
+
+        // imprimir valores
+
+    cliente1.
 }
